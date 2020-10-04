@@ -1,0 +1,40 @@
+*{
+    margin:0;
+padding:0;
+}
+
+
+
+.vitrine{
+    height:60vh ;
+        
+    background-image:url("../img/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position:center ;
+}
+.vitrine .slogan  .txt h2{
+    color:rgb(255, 72, 0);
+    font-size: 43px;
+    text-align: center;
+}
+.vitrine .slogan  .btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.vitrine .slogan  .btn button{
+   height: 40px;
+   width: 150px;
+   font-size: 18px;
+   border :none;
+   box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+   color: black;
+  }
+  {
+      font-size: 155px;
+      color:rgb(151, 19, 228);
+  }
+  
